@@ -1,0 +1,52 @@
+lhs,rhs,lhs_size
+['Inspection ID'],DBA Name,1
+['Inspection ID'],AKA Name,1
+['Inspection ID'],License #,1
+['Inspection ID'],Facility Type,1
+['Inspection ID'],Risk,1
+['Inspection ID'],Address,1
+['Inspection ID'],City,1
+['Inspection ID'],State,1
+['Inspection ID'],Zip,1
+['Inspection ID'],Inspection Date,1
+['Inspection ID'],Inspection Type,1
+['Inspection ID'],Results,1
+['Inspection ID'],Latitude,1
+['Inspection ID'],Longitude,1
+['DBA Name'],State,1
+['AKA Name'],State,1
+['License #'],State,1
+['Facility Type'],State,1
+['Risk'],State,1
+['Address'],State,1
+['Address'],Latitude,1
+['Address'],Longitude,1
+['City'],State,1
+['Zip'],State,1
+['Inspection Date'],State,1
+['Inspection Type'],State,1
+['Results'],State,1
+['Latitude'],State,1
+['Latitude'],Longitude,1
+['Longitude'],State,1
+['Longitude'],Latitude,1
+"['AKA Name', 'License #']",City,2
+"['License #', 'Facility Type']",City,2
+"['DBA Name', 'License #', 'Address']",City,3
+"['DBA Name', 'License #', 'Inspection Type']",City,3
+"['DBA Name', 'License #', 'Results']",City,3
+"['DBA Name', 'Facility Type', 'Address']",City,3
+"['DBA Name', 'Address', 'Inspection Date']",City,3
+"['DBA Name', 'Address', 'Inspection Date']",Zip,3
+"['DBA Name', 'Address', 'Inspection Type']",City,3
+"['DBA Name', 'Address', 'Results']",City,3
+"['DBA Name', 'Inspection Date', 'Latitude']",Zip,3
+"['DBA Name', 'Inspection Date', 'Longitude']",Zip,3
+"['AKA Name', 'Facility Type', 'Address']",City,3
+"['AKA Name', 'Address', 'Inspection Date']",City,3
+"['AKA Name', 'Address', 'Inspection Type']",City,3
+"['AKA Name', 'Address', 'Results']",City,3
+"['AKA Name', 'Inspection Date', 'Latitude']",City,3
+"['AKA Name', 'Inspection Date', 'Longitude']",City,3
+"['License #', 'Address', 'Inspection Date']",Zip,3
+"['License #', 'Inspection Date', 'Results']",City,3
